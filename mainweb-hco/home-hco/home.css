@@ -1,0 +1,96 @@
+/* Css Thanh menu */
+.menu {
+  height: 40px;
+  width: 100%;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: 2px solid #00bfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  box-shadow: 0 0 15px 5px #00bfff;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+/* logo */
+.hco {
+  width: 110px;
+  height: 40px;
+  color: #181b5e;
+  border: 2px solid #00bfff;
+  background-color: #181b5e;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: auto;
+}
+
+.hco img {
+  width: 100px;
+}
+
+/* Các button menu */
+.home,
+.gen,
+.project {
+  height: 35px;
+  border: 3px solid rgb(61, 61, 221);
+  border-radius: 15px;
+  box-shadow: 0 0 15px 5px #0000ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px;
+}
+
+.home {
+  width: 100px;
+}
+
+.gen {
+  width: 200px;
+}
+
+.project {
+  width: 150px;
+}
+
+/* Thanh menu */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.home img {
+  width: 55px;
+}
+
+nav ul li a {
+  color: #181b5e;
+  text-decoration: none;
+}
+
+/* Phần tiêu đề HCO */
+h1 {
+  color: #181b5e;
+  font-size: 60px;
+  text-align: center;
+  margin: 50px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+.nhomban {
+  height: 600px;
+  width: 700px;
+  margin: 30px;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.para {
+  font-size: 26px;
+}
