@@ -1,2 +1,2 @@
 # HCO-NDT-Club
-<a href="../main-web-hco/index.html">Next</a>
+<a href="../mainweb-hco/index.html">Next</a>
