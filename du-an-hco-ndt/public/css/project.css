@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Css Thanh menu */
+header {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Kiểu dáng Logo */
+.logo h1 {
+  font-weight: 300;
+  letter-spacing: 8px;
+  font-size: 50px;
+  color: #181b5e;
+  margin-bottom: 30px;
+}
+
+/* Cấu trúc Menu ngang */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 40px;
+}
+
+/* Kiểu chữ cho Menu */
+.main-nav ul li a {
+  text-decoration: none;
+  color: #999;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  transition: 0.3s;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+  color: #000;
+}
+
+/* Nội dung của các dự án */
+header + h1 {
+  font-size: 50px;
+  color: #181b5e;
+  text-align: center;
+  margin-top: 40px;
+}
+
+ul {
+  font-size: 22px;
+  list-style: none;
+}
+
+.project_infor {
+  width: 1000px;
+  height: auto;
+  border-radius: 30px;
+  display: block;
+  padding: 15px;
+}
+
+.project_infor a{
+  text-decoration: none;
+  color: #181b5e;
+  font-size: 30px;
+}
+
+/* Animation Right (các dự án lẻ) */
+.right{
+  margin-right: auto;
+  margin-bottom: 80px;
+  padding: 30px;
+  transition: all 1s ease;
+}
+
+.right:hover{
+  transform: translateX(22%);
+}
+
+/* Animation Left (các dự án chẵn) */
+.left{
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: 25px;
+  padding: 30px;
+  transition: all 1s ease;
+}
+
+.left:hover{
+  transform: translateX(-22%);
+}
+
+/* Border color của các dự án */
+.pro1 {
+  box-shadow: 0 0 10px 10px greenyellow;
+}
+
+.pro2 {
+  box-shadow: 0 0 10px 10px red;
+}
+
+.pro3 {
+  box-shadow: 0 0 10px 10px #ff97a7;
+}
+
+.pro4 {
+  box-shadow: 0 0 10px 10px rgb(16, 155, 236);
+}
+
+.pro5 {
+  box-shadow: 0 0 10px 10px rgb(4, 79, 179);
+}
+
+.pro6 {
+  box-shadow: 0 0 10px 10px rgb(156, 210, 241);
+}
+
+.pro7 {
+  box-shadow: 0 0 10px 10px #fee68c;
+}
+
+.pro8 {
+  box-shadow: 0 0 10px 10px rgb(248, 49, 14);
+}
+
+.pro9 {
+  box-shadow: 0 0 10px 10px #fdc54e;
+}
+
+.pro10 {
+  box-shadow: 0 0 10px 10px #f8433c;
+}

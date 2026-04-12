@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Css Thanh menu */
+header {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+/* Kiểu dáng Logo */
+.logo h1 {
+  font-weight: 300;
+  letter-spacing: 8px;
+  font-size: 50px;
+  color: #181b5e;
+  margin-bottom: 30px;
+}
+
+/* Cấu trúc Menu ngang */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 40px;
+}
+
+/* Kiểu chữ cho Menu */
+.main-nav ul li a {
+  text-decoration: none;
+  color: #999;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  transition: 0.3s;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+  color: #000;
+}
+
+/* Chân trang */
+footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #181b5e;
+  display: flex;
+  justify-content: left;
+  align-items: center;  
+  margin-top: auto;
+  padding: 10px 0 5px 0;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer img {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+footer nav ul li p a{
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 24px;
+  padding-left: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Phần tiêu đề HCO */
+h3 {
+  font-size: 35px;
+}
+
+.nhomban {
+  height: 600px;
+  width: 700px;
+  margin: 30px;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.para p {
+  font-size: 26px;
+  margin: 20px;
+}
